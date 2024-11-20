@@ -1,0 +1,65 @@
+header {
+    height: 12.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 7.2rem;
+
+}
+
+header > div {
+    display: flex;
+    align-items:center;
+    gap: 4.3rem;
+}
+
+header ul {
+    display: flex;
+    gap: 5.4rem;
+}
+
+header ul,
+header li {
+    list-style: none;
+}
+
+header a {
+    color: var(--grey-1);
+    text-decoration: none;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+}
+
+header p{
+    color: var(--grey-1);
+    font-size: 2.2rem;
+    line-height: 2.2rem; 
+}
+
+header a.active {
+    color: var(--white);
+    font-weight: 700;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.user button{
+    font-size: 1.4rem;
+    background: none;
+    color: var(--white);
+    font-weight: 700;
+    line-height: 2.4rem;
+    border: 2px solid var(--white);
+    padding: .8rem 2.8rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.user button:hover{
+    color: var(--green-blue);
+    background: var(--white);
+    transition: .7s;
+}

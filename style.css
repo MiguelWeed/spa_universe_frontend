@@ -1,0 +1,39 @@
+@import "./css/global.css";
+@import "./css/header.css";
+
+body{
+    background: black;
+}
+
+main {
+    height: calc(100vh - 12.2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: var(--grey-2);
+    font-size: 4.8rem;
+    margin-bottom: 2.4rem;
+}
+
+main a {
+    display: block;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 2.4rem;
+    border: 2px solid var(--white);
+    padding: 1.2rem 3.2rem;
+    border-radius: .5rem;
+}
+
+main a:hover {
+    color: var(--green-blue);
+    background: var(--white);
+    transition: .7s;
+}

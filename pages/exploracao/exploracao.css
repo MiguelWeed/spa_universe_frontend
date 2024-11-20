@@ -1,0 +1,27 @@
+@import "../../css/global.css";
+@import "../../css/header.css";
+
+body {
+    background: var(--exploracao-bg);
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+main {
+    margin-left: 10.2rem;
+    margin-top: 6.3rem;
+}
+
+main h1 {
+    font-size: 4.8rem;
+    color: var(--grey-2);
+    line-height: 125%;
+    margin-bottom: 1.6rem;
+}
+
+main p {
+    font-size: 1.8rem;
+    color: var(--grey-2);
+    max-width: 64.8rem;
+    line-height: 160%;
+}

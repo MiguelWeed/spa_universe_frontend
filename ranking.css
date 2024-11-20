@@ -1,0 +1,91 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f4ea;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contêiner do ranking */
+.ranking-container {
+    text-align: center;
+    background: #c7e7d4;
+    border: 2px solid #a8d5b4;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Título do ranking */
+.ranking-title {
+    color: #276749;
+    margin-bottom: 20px;
+}
+
+/* Lista de ranking */
+.ranking-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para cada item do ranking */
+.ranking-list li {
+    background: #a8d5b4;
+    color: #1c4532;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.ranking-list li:hover {
+    transform: scale(1.05);
+}
+
+/* Destaques para top 3 */
+.ranking-list li:nth-child(1) {
+    background: #81c784;
+    font-weight: bold;
+    color: #0d421d;
+}
+
+.ranking-list li:nth-child(2) {
+    background: #98e098;
+}
+
+.ranking-list li:nth-child(3) {
+    background: #b2f0b2;
+}
+
+/* Inputs e botão */
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container input, .input-container button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #a8d5b4;
+    border-radius: 5px;
+}
+
+.input-container button {
+    background-color: #81c784;
+    color: white;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #6cb774;
+}
